@@ -4,61 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+  box-sizing: border-box;
+}
+        .column {
+            float: left;
+            padding: 0px;
+            background: #1a53bc;
+            border-color: #1a53bc;
+            border-width: 5px;
+        }
+
+        .left{
+            width: 25%;
+            float: left;
+            
+            border-style: solid;
+            border-width: 10px;
+            border-color: #1a53bc;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .right {
+            width: 75%;
+            float: right;
+           
+            border-style: solid;
+            border-width: 10px;
+            border-color: #1a53bc;
+        }
+        .titres {
+            padding: 2px;
+            text-align: center;
+            background: #1a53bc;
+            color: white;
+            font-size: 12px;
+        }
+        
+    </style>
     <title>CV Tristan Badet</title>
 </head>
-<body>
-    <h1>Tristan BADET</h1>
-    <img src="photo.png" alt="Photo de Tristan BADET" width ="90" height="100">
-    <h2>Étudiant de l'école du numérique La Plateforme</h2>
-    <h2>Recherche d'alternance en IT</h2>
-    <h2>INTRODUCTION</h2>
-    <p>En reconversion professionnelle en étant étudiant en première année short track à l'école du numérique, passionné d'informatique depuis 15 ans.</p>
-    <h2>COMPÉTENCES</h2>
-    <p>Bagages informatiques : Word, bases Excel, Photofiltre, PowerPoint, Composants PC 
+<body style="background-color: #1a53bc; width: 500;">
+
+<!-- Colonne de Gauche -->
+
+    <div class="row">
+        <div class="column left"
+        style="background-image: linear-gradient(rgb(140, 201, 255), aliceblue)">
+    <p class="carre">
+    <img src="photo.png" alt="Photo de Tristan BADET" class="center">
+    <div class="titres">
+    <h2 style="font-family: 'Times New Roman', Times, serif;">INTRODUCTION</h2>
+    </div>
+    <p style="padding: 7px; font-family:'Times New Roman', Times, serif;">En reconversion professionnelle en étant étudiant en première année short track à l'école du numérique, passionné d'informatique depuis 15 ans.</p>
+    <div class="titres">
+    <h2 style="font-family: 'Times New Roman', Times, serif;">CONTACTS ET LIENS</h2>
+    </div>
+    <p style="padding: 7px; font-family:'Times New Roman', Times, serif;">Adresse : 3 Boulevard des Bouires, résidence les Comtes Nord, 13012 Marseille 
+        <br> Mail : badet.tristan.p@gmail.com <a href="mailto:badet.tristan.p@gmail.com">Envoyer un mail</a>
+        <br> Téléphone : 06.41.97.06.33 <a href="tel:0641970633">Appeler</a>
+        <br> Profil github : <a href="https://github.com/tristan-badet">https://github.com/tristan-badet</a>
+        <br> Profil LinkedIn : <a href="https://www.linkedin.com/in/tristan-badet-136698270/">https://www.linkedin.com/in/tristan-badet-136698270/</a>
+    </p>
+    <div class="titres">
+    <h2 style="font-family: 'Times New Roman', Times, serif;">CENTRES D'INTÉRÊTS</h2>
+    </div>
+    <p style="padding: 7px; font-family:'Times New Roman', Times, serif;">Lecture d'ouvrages historiques et mythologies 
+        <br>Lecture de bandes dessinées et de mangas 
+        <br>Jeux-vidéos : Joueur et intérêt dans le speedrun
+    </p>
+    <div class="titres">
+    <h2 style="font-family: 'Times New Roman', Times, serif;">LANGUES</h2>
+    </div>
+    <p style="padding: 7px; font-family:'Times New Roman', Times, serif;">Anglais : Niveau B2 
+        <br> Vietnamien : Niveau A1 
+        <br> Espagnol : Niveau A1
+    </p>
+</div>
+
+
+ <!-- Colonne de droite  -->
+
+    <div class="row">
+        <div class="column right"
+        style="background-image: linear-gradient(rgb(140, 201, 255), aliceblue)">
+        <h2 style="padding: 7px; font-family:'Times New Roman', Times, serif;">Tristan BADET<br>Étudiant de l'école du numérique La Plateforme<br>Recherche d'alternance en IT</h2>
+        <div class="titres">
+        <h2>COMPÉTENCES</h2>
+        </div>
+    <p  style="padding: 7px; font-family:'Times New Roman', Times, serif;">Bagages informatiques : Word, bases Excel, Photofiltre, PowerPoint, Composants PC 
         <br>Maquettage avec Figma
         <br>Utilisation de Git et Github
-        <br><p>Actuellement en apprentissage des langages de programmations et de balisages suivants:
-            <br>-HTML
-            <br>-Swift et SwiftUI
-            <br>-Python
-            <br>-SQL
-        </p>
+        <br>Actuellement en apprentissage des langages de programmations et de balisages suivants:
+        <br>    -HTML
+        <br>    -Swift et SwiftUI
+        <br>    -Python
+        <br>    -SQL
     </p>
-    <h2>FORMATIONS</h2>
-    <p><u>MARS 2023:</u>Entrée à La Plateforme, école du numérique école qui utilise l'apprentissage par projets.
+    <div class="titres">
+    <h2 style="font-family: 'Times New Roman', Times, serif;">FORMATIONS</h2>
+    </div>
+    <p style="padding: 7px; font-family:'Times New Roman', Times, serif;"><u>MARS 2023:</u>Entrée à La Plateforme, école du numérique école qui utilise l'apprentissage par projets.
         <br><u>JANVIER 2023:</u>Apple Foundation Program, formation Swift et SwiftUI à l'école Simplon.co
         <br><u>OCTOBRE 2022:</u>Stage effectué dans un laboratoire de prothèses dentaires
     </p>
-    <h2>ÉTUDES ET DIPLÔMES</h2>
-    <p><u>SEPTEMBRE 2019 - JUIN 2021:</u>Faculté d'Histoire, Archéologie et d'Histoire de l'Art
+    <div class="titres">
+    <h2 style="font-family: 'Times New Roman', Times, serif;">ÉTUDES ET DIPLÔMES</h2>
+    </div>
+    <p style="padding: 7px; font-family:'Times New Roman', Times, serif;"><u>SEPTEMBRE 2019 - JUIN 2021:</u>Faculté d'Histoire, Archéologie et d'Histoire de l'Art
         <br>à Aix-En-Provence - 2 années de Licence validées
         <br><u>2018 - 2019:</u> BTS Chimie au lycée Jean Perrin non validé
         <br><u>JUILLET 2018:</u>Obtention du BACCALAUREAT Scientifique au lycée Nelson Mandela à Marseille
     </p>
-    <h2>QUALITES HUMAINES</h2>
-    <p>Patient
+    <div class="titres">
+    <h2 style="font-family: 'Times New Roman', Times, serif;">QUALITES HUMAINES</h2>
+    </div>
+    <p style="padding: 7px; font-family:'Times New Roman', Times, serif;">Patient
         <br>Capacité de travail en équipe
         <br>Autonome 
         <br>Flexibilité
         <br>Organisé
         <br>Consciencieux
     </p>
-    <h2>CONTACTS ET LIENS</h2>
-    <p>adresse : 3 Boulevard des Bouires, résidence les Comtes Nord, 13012 Marseille 
-        <br> mail : badet.tristan.p@gmail.com 
-        <br> téléphone : 06.41.97.06.33 
-        <br> profil github : <a href="https://github.com/tristan-badet">https://github.com/tristan-badet</a>
-        <br> profil LinkedIn : <a href="https://www.linkedin.com/in/tristan-badet-136698270/">https://www.linkedin.com/in/tristan-badet-136698270/</a>
-    </p>
-    <h2>CENTRES D'INTÉRÊTS</h2>
-    <p>Lecture d'ouvrages historiques et mythologies 
-        <br>Lecture de bandes dessinées et de mangas 
-        <br>Jeux-vidéos : Joueur et intérêt dans le speedrun
-    </p>
-    <h2>LANGUES</h2>
-    <p>Anglais : Niveau B2 
-        <br> Vietnamien : Niveau A1 
-        <br> Espagnol : Niveau A1
-    </p>
+        </div>
 </body>
 </html>
