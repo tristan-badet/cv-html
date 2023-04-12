@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+
+.left{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background: rgb(51, 83, 131);
+    border-color: rgb(51, 83, 131);
+    background-image: rgb(51, 83, 131);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.right {
+    width: 80%;
+    height:100%;
+    float: right;
+    
+    background: whitesmoke;
+    border-color: whitesmoke;
+    background-image: whitesmoke;
+}
+body {
+    color: rgb(51, 83, 131);
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(51, 83, 131);
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.pleft {
+    color: whitesmoke;
+}
+.pright{
+    color:rgb(68, 68, 63)
+}
+.h2left{
+    background: rgb(51, 83, 131);
+    color: whitesmoke;
+}
+.h2right{
+    background: whitesmoke;
+    color: rgb(91, 167, 209);
+}
+
+          
